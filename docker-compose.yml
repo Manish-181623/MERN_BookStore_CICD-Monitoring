@@ -34,8 +34,7 @@ services:
   #     - ME_CONFIG_MONGODB_SERVER=mongo
   #   ports:
   #     - "8081:8081"
-  #   depends_on:
-  #     - mongo
+  
   prometheus:
     image: prom/prometheus
     volumes:
