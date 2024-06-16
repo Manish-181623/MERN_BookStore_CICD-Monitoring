@@ -33,7 +33,7 @@ services:
   #     - ME_CONFIG_MONGODB_ADMINPASSWORD=admin
   #     - ME_CONFIG_MONGODB_SERVER=mongo
   #   ports:
-  #     - "8081:8081"
+  #
   
   prometheus:
     image: prom/prometheus
